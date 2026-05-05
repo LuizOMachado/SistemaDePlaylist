@@ -38,4 +38,4 @@ Clone o repositório.
 Navegue até a pasta do projeto.
 Execute o comando:
 
-python nome_do_arquivo.py
+python sistema.py
