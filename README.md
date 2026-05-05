@@ -34,8 +34,11 @@ Módulo de estatísticas com contagem manual de nós.
 
 ## Como Executar
 Certifique-se de ter o Python 3 instalado. O programa não possui dependências externas.
+
 Clone o repositório.
+
 Navegue até a pasta do projeto.
+
 Execute o comando:
 
 python sistema.py
