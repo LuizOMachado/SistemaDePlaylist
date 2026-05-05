@@ -37,4 +37,5 @@ Certifique-se de ter o Python 3 instalado. O programa não possui dependências 
 Clone o repositório.
 Navegue até a pasta do projeto.
 Execute o comando:
-## python nome_do_arquivo.py
+
+python nome_do_arquivo.py
