@@ -309,7 +309,6 @@ def main():
             print("\n--- Reproduzir Música Específica (Por ID) ---")
             try:
                 id_busca = int(input("Digite o ID da música que deseja ouvir: "))
-                # Fazemos apenas a busca, preservando a música na Biblioteca e nas Filas de Humor
                 musica_encontrada = biblioteca.buscar_por_id(id_busca)
                 
                 if musica_encontrada:
