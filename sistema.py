@@ -48,7 +48,6 @@ class Biblioteca:
         return False
 
     def buscar_por_id(self, id_musica):
-        # Varredura linear pela lista encadeada (O(n))
         atual = self.cabeca
         while atual is not None:
             if atual.musica.id == id_musica:
@@ -297,7 +296,6 @@ def main():
                 print("Opção de fila inválida.")
                 continue
                 
-            # Validação rigorosa de fila vazia conforme o edital
             if fila_alvo.esta_vazia():
                 print("Erro: fila vazia ao tentar reproduzir")
             else:
